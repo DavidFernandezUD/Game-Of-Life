@@ -1,5 +1,7 @@
 # CONWAY's GAME OF LIFE
 
+![game_of_life](game_of_life.png)
+
 This is a simple, terminal based, implementation of John Conway's Game of Life. Conway's Game of Life
 is a 2D celular automata that consists in only 4 rules:
 
@@ -14,9 +16,10 @@ continue to be applied repeatedly to create future generations.
 
 ## USAGE
 
-Compile the program with your compiler of chice
+Compile the program with your compiler of choice.
+
 1. `gcc game_of_life.c -o game_of_life`
 
-Execute the program by passing the dimensions of the grid, and optionally, the density of life cells in the starting seed
-2. `./game_of_life <height> <width> <density>`
+Execute the program by passing the dimensions of the grid, and optionally, the density of living cells in the starting seed.
 
+2. `./game_of_life <height> <width> <density>`
